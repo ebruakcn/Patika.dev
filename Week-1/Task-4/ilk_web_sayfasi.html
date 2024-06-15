@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {                          /*body altındaki yazı tipini ve rengini değiştirdim. Arka plan rengini değiştirdim*/
+            font-family: Arial, sans-serif; 
+            line-height: 1.6;
+            margin: 20px;
+            background-color: rgb(136, 167, 136);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+
+        div {                            /*div başlığı altındaki değerleri değiştirir*/
+            margin-bottom: 20px;
+            border: 1px solid #333;
+            background-color: aliceblue;
+        }
+
+        h2 {                             /*h2 başlığı altındaki yazıların altlarını çizer.*/
+            text-decoration: underline;
+
+        }
+
+        img {                           /* Resmi daire şeklinde yapar */
+            border-radius: 45%;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Ebru Akcan</h1>
+    </div>
+    <div>
+        <!-- img özelliğini indirdiğim jpe dosyasını bağlayarak kullandım -->
+        <img src="ebru.jpeg" alt="Profil Fotoğrafı" width="150" height="150">
+        <p>Merhaba ben Ebru, Düzce Üniversite Bilgisayar Mühendisliği bölümünden mezun oldum. Yazılım bilgilerimin
+            yetersiz olduğu ve bu eksikliği gidermek için Patika+ Front-End Web Development Programı katıldım bu program
+            sayesinde hem öğrenip hem tecrübe sahibi oluyorum. Bu alanda ilerlemek ve iyi yerlere gelmek istiyorum.</p>
+    </div>
+    <div>
+        <h2>Kişisel Bilgiler</h2>
+        <!--iframe etiketini Google Maps kullanarak Adres bilgisinde kullandım-->
+        <p>Adres:<iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157791.6442552907!2d27.98751701534853!3d38.61913646983233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bb47437c226e6f%3A0x8c82f88b6103d92b!2sManisa%20Merkez%2C%20Manisa!5e0!3m2!1str!2str!4v1623750899897!5m2!1str!2str"
+                width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+
+        <p>E-posta: <strong>ebruakcn45@gmail.com</strong></p>
+        <!-- <a href> özelliğini medya hesaplarım da kullanarak bağlantı kurdurdum -->
+        <p>Linkedin:<strong><a
+                    href="https://www.linkedin.com/in/ebruakcan">https://www.linkedin.com/in/ebruakcan</a></strong></p>
+        <p>Github:<strong><a href="https://github.com/ebruakcn">https://github.com/ebruakcn<a></strong></p>
+    </div>
+
+    <div>
+        <h2>Eğitim</h2>
+        <p><strong>Düzce Üniversitesi</strong><br>
+            Bilgisayar Mühendisliği <br>
+            2015-2021
+    </div>
+
+    <div>
+        <h2>Deneyim</h2>
+        <p><strong>Patika.dev</strong><br>
+            Pozisyon:Öğrenci <br>
+            Başlangıç - Bitiş Tarihi: <em>Haziran 2024 - Halen </em><br>
+            İş Tanımı: Türkiye'deki en etkili kar amacı gütmeyen eğitim kuruluşlarından biri, binlerce insana teknoloji işlerine girmelerine yardımcı olan, sosyal etki ödülleri kazandıran ve büyük ölçekte teknoloji kariyeri için yol oluşturma konusunda birçok kişiye yol gösteren şirket. </p>
+    </div>
+
+    <div>
+        <h2>Yetenekler</h2>
+        <ul>
+            <li>Müzikal Yetenek</li>
+            <li>Araştırmacı</li>
+            <li>Meraklı</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Beceriler</h2>
+        <ol>
+            <li>Dikkat ve Gözlem</li>
+            <li>Sakinlik</li>
+        </ol>
+    </div>
+</body>
+
+</html>
