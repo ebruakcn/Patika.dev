@@ -8,17 +8,14 @@
 </head>
 
 <body>
-<style>
-    form{
-        border:1px solid black;
-        padding: 10px;
-        width: 30%;
-        border-radius: 4px;
-        }
-</style>
+
+
     <h2>Kullanıcı Kayıt Formu</h2>
+  
+        <form>  
+           
         <!-- Text Input -->
-        <label for="fname">Ad:</label>
+        <label for="fname">Ad: </label>
         <input type="text" id="fname" name="fname" required> <br> <br>
         <label for="lname">Soyad:</label>
         <input type="text" id="lname" name="lname" required><br> <br>
@@ -50,11 +47,13 @@
 
         <!-- Textarea Input -->
         <label for="message">Mesajınız:</label>
-        <textarea name="message" id="message" cols="50" rows="4"></textarea><br> <br>
+        <textarea name="message" id="message" cols="20" rows="4"></textarea><br> <br>
 
         <!-- Submit Button -->
         <input type="submit" value="Gönder">
+    
     </form>
+
 </body>
 
 </html>
