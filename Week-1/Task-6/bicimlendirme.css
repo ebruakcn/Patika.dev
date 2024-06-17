@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #99f3b0;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ul li { /*sekmelerin yanyana durmasını sağlar*/
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.main-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.servis {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.iletisim {/*alt elementlerle arasına mesafe koydurur*/
+    margin-bottom: 50px;
+}
+.iletisim label{   /*metini kalın olarak gösterir*/
+    font-weight: bold;
+ 
+}
+
+.iletisim input,
+.iletisim textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.iletisim button {
+   background-color: #014224;
+   color: #ffffff;
+   padding: 10px 20px;
+}
