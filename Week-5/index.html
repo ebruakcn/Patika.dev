@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="p-4 mx-4 border-b border-white-700">
+    <div class="container mx-auto flex justify-end items-center ">
+
+      <div class="hidden md:flex space-x-4 ">
+        <a href="#" class="text-black-300 hover:text-white">Link</a>
+        <a href="#" class="text-black-300 hover:text-white">Link</a>
+        <a href="#" class="text-black-300 hover:text-white">Link</a>
+        <a href="#" class="ml-2 bg-blue-500 text-white px-1 py-1 rounded-md hover:bg-blue-700">Sign In</a>
+
+      </div>
+    </div>
+  </nav>
+  <div class="grid grid-cols-3 gap-4 ml-5 my-4 ">
+    <div class="p-4 shadow rounded col-span-1 ">
+      <div class="text-center mb-4">
+        <div class="text-xl text-purple-700">Mamba desing system</div>
+        <div class="text-4xl font-bold">Build it with Mamba</div>
+        <div class="text-xl ">Modular and versatile. The ultimate desing toolkit for savvy technology startups.</div>
+      </div>
+      <input type="text" placeholder="Your Name" class="px-3 py-2 rounded-md bg-white-700 text-white " /> <br>
+      <input type="email" placeholder="Email address" class="px-3 py-2 rounded-md bg-white-700 text-white" /> <br>
+      <button class="bg-purple-500 text-white px-20 py-2 rounded-md hover:bg-blue-700">Join the waitlist</button>
+
+    </div>
+    <div class="p-4 shadow rounded col-span-2">
+      <img src="https://picsum.photos/seed/picsum/900/300" alt="Gönderi 1 Resim" class="rounded-t-lg">
+
+    </div>
+  </div>
+  <div class="text-sm text-purple-700 text-center">HOW IT WORKS</div>
+  <div class="text-4xl font-bold text-center">Build it with Mamba is simple</div>
+  <div class="grid grid-cols-3 gap-4 ml-5 my-4 ">
+    <div class="p-4 shadow rounded">
+      <div class="grid p-2 w-8 h-8 rounded-full bg-purple-500 text-white ">
+        <div class="justify-self-center">1</div>
+      </div>
+      <p class="font-serif"><strong>Lorem,</strong> İpsum dolor sit amet.</p>
+    </div>
+    <div class="p-4 shadow rounded">
+      <div class="grid p-2 w-8 h-8 rounded-full bg-purple-500 text-white ">
+        <div class="justify-self-center">2</div>
+      </div>
+      <p class="font-serif"><strong>İpsum,</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+        deleniti.</p>
+    </div>
+    <div class="p-4 shadow rounded">
+      <div class="grid p-2 w-8 h-8 rounded-full bg-purple-500 text-white ">
+        <div class="justify-self-center">3</div>
+      </div>
+      <p class="font-serif"><strong>Dolor,</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Perspiciatis veritatis iusto facere debitis eius velit ex odio magnam, consectetur laboriosam.</p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 ml-5 my-4 ">
+    <div class="p-4 shadow rounded col-span-1 "> <img src="https://picsum.photos/id/1070/800/400?grayscale&blur=2"
+        alt="Gönderi 1 Resim" class="rounded-t-lg"></div>
+    <div class="p-4 shadow rounded col-span-1 ">
+      <div class="p-2 grid">
+        <div class="bg-gray-500 w-20 h-20 rounded-full justify-self-center "></div>
+      </div>
+      <div class="my-10 text-center">
+        <p class="italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, unde."</p>
+        <p class="font-serif">Leroy Jenkins <br> CEO of Company Co.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid col-span shadow rounded ml-4 mr-4">
+    <div class="text-4xl font-bold">Create with us</div>
+    <p class="font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorem saepe, adipisci
+      ipsum, tempore vel nesciunt atque accusamus fugit ex necessitatibus hic iste sint voluptatibus laboriosam!
+      Perspiciatis vero et quidem.</p>
+  </div>
+  <div class="grid grid-cols-3 ml-5 my-4 mr-4 shadow rounded">
+    <div class="col-span-2">
+      <img src="https://picsum.photos/800/300" alt="Gönderi 1 Resim" class="rounded-t-lg">
+    </div>
+
+    <div class="col-span-1 ">
+      <div class="p-2 w-20 h-10 rounded-full bg-purple-500 text-white ">
+        <div class="justify-self-center">Business</div>
+      </div>
+      <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+      <p class="font-serif">November 30, 2020 <br> By Leroy Jenkins</p>
+    </div>
+  </div>
+  <div class="grid grid-cols-3 gap-4 ml-4 mr-4 my-4 ">
+    <div class="p-4 shadow rounded">
+      <p class="font-serif"><strong>Lorem,</strong> İpsum dolor sit amet.</p>
+    </div>
+    <div class="p-4 shadow rounded">
+      <p class="font-serif"><strong>İpsum,</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+        deleniti.</p>
+    </div>
+    <div class="p-4 shadow rounded">
+      <p class="font-serif"><strong>Dolor,</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Perspiciatis veritatis iusto facere debitis eius velit ex odio magnam, consectetur laboriosam.</p>
+    </div>
+  </div>
+  <div class="grid shadow text-center ml-4 mr-4">
+    <div class="text-4xl font-bold">Our team is here to help you</div>
+    <div class="text-xl">Meet our crew ></div>
+    <img src="https://picsum.photos/800/300" alt="Gönderi 1 Resim" class="rounded-t-lg justify-self-center">
+  </div>
+
+  <footer class="text-white border-white-700">
+    <div class="container mx-auto px-2 py-2 ">
+        <div class="flex flex-wrap">
+            <div class="w-full sm:w-auto mb-4 sm:mb-0">
+                <p class="text-gray-400">Mamba</p>
+            </div>
+            
+        </div>
+        <div class="flex justify-end ">
+            <a href="#" class="text-gray-400 hover:text-white">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 4.56c-.89.39-1.84.65-2.84.77a4.92 4.92 0 002.15-2.71 9.84 9.84 0 01-3.13 1.2 4.92 4.92 0 00-8.38 4.48A13.94 13.94 0 011.67 3.15a4.91 4.91 0 001.52 6.56A4.84 4.84 0 01.96 9v.05a4.91 4.91 0 003.95 4.82 4.87 4.87 0 01-2.21.08 4.92 4.92 0 004.59 3.42A9.87 9.87 0 010 21.54a13.93 13.93 0 007.56 2.22c9.06 0 14.02-7.5 14.02-14.02 0-.21 0-.42-.02-.63A10 10 0 0024 4.56z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
