@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!--Linklerin altındaki çizgi-->
+  <style>
+    .underline-effect {
+      position: relative;
+      display: inline-block;
+    }
+
+    .underline-effect::after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      bottom: -15px;
+      left: -6px;
+      background-color: beige;
+
+    }
+
+    .underline-effect:hover::after {
+      background-color: rgb(146, 36, 219);
+      visibility: collacpse;
+    }
+
+    /*Card yapısının boyutu, resmin boyutu*/
+    .half-colored-card {
+      position: relative;
+      height: 250px;
+    }
+
+    .half-colored-card .half {
+      width: 100%;
+      position: absolute;
+      left: 0;
+    }
+
+    .half-colored-card .half.top {
+      top: 0;
+      height: 70%;
+      background-color: #ffffff;
+    }
+
+    .half-colored-card .half.bottom {
+      bottom: 0;
+      height: 30%;
+      background-color: #791ec4;
+    }
+
+    .half-colored-card img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -10%);
+      height: 86px;
+      width: 86px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="p-4 mx-6 border-b border-white-700">
+    <div class="container mx-auto flex items-center ">
+
+      <div class="hidden md:flex space-x-6 justify-start">
+        <a href="#" class="text-black-300 hover:text-purple-700 underline-effect">Link</a>
+        <a href="#" class="text-black-300 hover:text-purple-700 underline-effect">Link</a>
+        <a href="#" class="text-black-300 hover:text-purple-700 underline-effect">Link</a>
+
+      </div>
+      <div class="relative ml-auto">
+        <input type="text" placeholder="Search..."
+          class="pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+        <svg class="w-5 h-5 text-gray-500 absolute left-3 top-1/2 transform -translate-y-1/2"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M23.707 22.293l-6.364-6.364A9.472 9.472 0 0019 10.5C19 4.981 14.519.5 9 .5S-.5 4.981-.5 10.5 4.481 20.5 9 20.5a9.472 9.472 0 005.429-1.657l6.364 6.364a1 1 0 001.414-1.414zM9 18.5a8 8 0 110-16 8 8 0 010 16z" />
+        </svg>
+
+        <button class="bg-blue-500 text-white px-2 py-2 rounded-lg hover:bg-blue-700">Sign In</button>
+
+      </div>
+    </div>
+
+  </nav>
+  <div class="bg-gray-300 text-center px-60 py-40">
+    <p class="text-4xl font-bold">Lorem ipsum dolor ramet consectetur.<span class="text-purple-500"> Lorem, ipsum
+        dolor.</span> Lorem, ipsum.</p>
+    <p class="font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, culpa? Lorem ipsum dolor sit
+      amet consectetur.</p>
+    <div class="justify-between py-8">
+      <button class="bg-purple-500 text-black px-2 py-2 rounded-lg hover:bg-white">Get Started</button>
+      <button class="bg-white-500 text-black px-2 py-2 rounded-lg hover:bg-purple-700">Learn more</button>
+    </div>
+
+  </div>
+  <p class="text-4xl text-center font-bold my-8">What our customers are saying about us</p>
+
+  <!--Card-->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-64 py-28">
+    <div class="bg-white rounded-lg shadow-lg max-w-xs flex flex-col overflow-hidden">
+      <div class="half-colored-card">
+        <div class="half top italic text-center py-10">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, dignissimos!"</div>
+        <div class="half bottom text-white text-center py-10">Lorem ipsum.</div>
+        <img src="https://via.placeholder.com/150" alt="Gönderi Resim">
+      </div>
+
+    </div>
+    <div class="bg-white rounded-lg shadow-lg max-w-xs flex flex-col overflow-hidden">
+      <div class="half-colored-card">
+        <div class="half top italic text-center py-10">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, dignissimos!"</div>
+        <div class="half bottom text-white text-center py-10">Lorem ipsum.</div>
+        <img src="https://via.placeholder.com/150" alt="Gönderi Resim">
+      </div>
+
+    </div>
+    <div class="bg-white rounded-lg shadow-lg max-w-xs flex flex-col overflow-hidden">
+      <div class="half-colored-card">
+        <div class="half top italic text-center py-10">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, dignissimos!"</div>
+        <div class="half bottom text-white text-center py-10">Lorem ipsum.</div>
+        <img src="https://via.placeholder.com/150" alt="Gönderi Resim">
+      </div>
+
+    </div>
+    <div class="bg-white rounded-lg shadow-lg max-w-xs flex flex-col overflow-hidden">
+      <div class="half-colored-card">
+        <div class="half top italic text-center py-10">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, dignissimos!"</div>
+        <div class="half bottom text-white text-center py-10">Lorem ipsum.</div>
+        <img src="https://via.placeholder.com/150" alt="Gönderi Resim">
+      </div>
+
+    </div>
+  </div>
+<!--Contact-->
+  <div
+    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 shadow rounded-lg mx-auto">
+    <form class="space-y-6" action="#">
+      <h5 class="text-xl font-medium text-gray-900 dark:text-white">Contact us</h5>
+      <div>
+        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+        <input type="text" name="name" id="name"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+          placeholder="Your Name" required />
+      </div>
+      <div>
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your Email"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+          required />
+      </div>
+
+      <button type="submit"
+        class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send</button>
+
+    </form>
+  </div>
+
+<!--Footer-->
+  <footer class="text-black p-4 mt-8">
+    <div class="container mx-auto text-center">
+
+      <ul class="flex justify-start space-x-4 ml-12">
+        <li><a href="#shop" class="hover:text-gray-400">Shop</a></li>
+        <li><a href="#about" class="hover:text-gray-400">About</a></li>
+        <li><a href="#blog" class="hover:text-gray-400">Blog</a></li>
+        <li><a href="#pricing" class="hover:text-gray-400">Pricing</a></li>
+        <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+
+      </ul>
+      <!--Instagram, Twitter, Facebook, Google, Pinterest logoları-->
+      <div class="flex justify-end space-x-4 mr-12">
+        <a href="https://www.instagram.com" class="hover:text-gray-400">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <a href="https://www.twitter.com" class="hover:text-gray-400">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
+        <a href="https://www.facebook.com" class="hover:text-gray-400">
+          <i class="fab fa-facebook text-xl"></i>
+        </a>
+        <a href="https://www.google.com" class="hover:text-gray-400">
+          <i class="fab fa-google text-xl"></i>
+        </a>
+        <a href="https://www.pinterest.com" class="hover:text-gray-400">
+          <i class="fab fa-pinterest text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
