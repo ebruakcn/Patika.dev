@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.drum-kit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.drum {
+    background: #2204d1;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 10px;
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    border-radius: 10px;
+}
+
+.drum:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
