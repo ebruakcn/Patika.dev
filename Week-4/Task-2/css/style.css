@@ -4,8 +4,9 @@
   color: gray;
   background-position: 40%;
   background-size: 6%;
-  /* 5. svg dosyasındaki arama ikonunu ekleyip resmin tekrar etmemesini sağladık*/
-  background: url('/assets/search-solid.svg') no-repeat;
+  background-image: url("assets/search-solid.svg");
+  background-repeat: no-repeat;
+
 }
 
 input.empty {
@@ -46,29 +47,12 @@ input.empty {
   text-decoration: none;
   color: lightgrey;
 }
-/*Kodlarım*/ 
-/*1. 2. Navbar'ı yukarı sabitleyip sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağladık. İçerik ile birleşmemesi için body'e padding verdik.
-Navbarın height'ı 54 px yaptık ve arkaplan rengi beyaz yaptık. fixed-top komutu ile de yapılıyor*/
-.navbar-container {
-  position: sticky;
-  top: 0;
-  z-index:1;
-  background-color: rgb(255, 252, 252); 
-  height: 54px;
-  padding: 2%;
-}
-/* 9. Class'da belirttiğimiz middlearea içinde maksimum yükseklik 200px olmalı ve bunu important ile belirttik.*/
-.middlearea-box{
-max-height: 200px !important;
-}
-#sticky-sidebar{
-  position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        padding: 5px;
 
+.max-height-200 {
+  max-height: 200px !important;
 }
-.rightpanel{
-  background-color: #ffffff;
-  border: 0;
+
+.post-card .rightpanel {
+  background-color: white;
+  border: none;
 }
