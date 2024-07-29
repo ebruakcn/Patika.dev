@@ -13,16 +13,16 @@ This project is a simple review page example created using Tailwind CSS. It feat
 <li>CSS: Additional custom styles are defined in the stylesheet.</li></ul>
 
 ## Installation
-Clone the Repository:
+1.Clone the Repository:
 ```<language>
 git clone https://github.com/ebruakcn/Patika.dev.git
 ```
 
 
-## Install Tailwind CSS:
+2.Install Tailwind CSS:
 For detailed instructions on setting up Tailwind CSS, refer to the Tailwind CSS Documentation. If you are not using Tailwind CSS, you can modify the styles.css file as needed.
 
-## Open the Project Files:
+3.Open the Project Files:
 View the page by opening the index.html file in a web browser.
 
 ## Usage
