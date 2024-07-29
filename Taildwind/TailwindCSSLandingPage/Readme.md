@@ -19,7 +19,7 @@
 ## Installation
 <ol> 
   <li>Clone the Repository:</li>
-git clone https://github.com/ebruakcn/Patika.dev.git
+´´´git clone https://github.com/ebruakcn/Patika.dev.git´´´
 
 <li> Install Tailwind CSS:</li>
 For detailed instructions on setting up Tailwind CSS, refer to the Tailwind CSS Documentation. If you prefer not to use Tailwind, you can modify the styles.css file directly.
