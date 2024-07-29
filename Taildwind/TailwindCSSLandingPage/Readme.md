@@ -30,3 +30,6 @@ You can view the page by opening the index.html file in a web browser.</ol>
 
 ## Usage
 After setting up the project, you can customize the landing page's appearance and content as needed. Modify the content in the index.html file and adjust styles in the styles.css file to fit your requirements.
+```<language>
+content
+```
