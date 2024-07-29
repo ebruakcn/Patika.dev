@@ -18,7 +18,9 @@
 
 ## Installation
 <ol> 
-  <li>Clone the Repository:</li>
+  <li>Clone the Repository: ```<language>
+content
+```</li>
 ```<language>
 content
 ```
