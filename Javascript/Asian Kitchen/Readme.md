@@ -18,7 +18,8 @@
 ## Installation
 1.Clone the Repository:
 ```<language>
-git clone https://github.com/ebruakcn/Patika.dev.git```
+git clone https://github.com/ebruakcn/Patika.dev.git
+```
 
 2.Open the Project Files:
 View the page by opening the index.html file in a web browser.
