@@ -26,10 +26,3 @@ Learn how to set up and run the project on your local machine.
 
 Open the project files in your browser to view.
 
-## Contributing
-
-To contribute, please open an issue first.
-
-## License
-
-This project is licensed under the MIT License.
