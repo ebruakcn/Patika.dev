@@ -20,7 +20,7 @@
 <ol> 
   <li>Clone the Repository:</li>
   ```<language>
-  git clone https://github.com/ebruakcn/Patika.dev.git
+ content
 ```
 ```<language>
 content
