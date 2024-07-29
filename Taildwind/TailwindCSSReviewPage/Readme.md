@@ -20,9 +20,11 @@ git clone https://github.com/ebruakcn/Patika.dev.git
 
 
 2.Install Tailwind CSS:
+
 For detailed instructions on setting up Tailwind CSS, refer to the Tailwind CSS Documentation. If you are not using Tailwind CSS, you can modify the styles.css file as needed.
 
 3.Open the Project Files:
+
 View the page by opening the index.html file in a web browser.
 
 ## Usage
