@@ -1,8 +1,9 @@
-Chuck Norris Jokes
-Project Description
-The Chuck Norris Jokes project is a simple web application that fetches and displays random Chuck Norris jokes using the Chuck Norris API. This project is built using HTML, CSS, and JavaScript.
+# Chuck Norris Jokes
+## Project Description
+<p>The Chuck Norris Jokes project is a simple web application that fetches and displays random Chuck Norris jokes using the Chuck Norris API. This project is built using HTML, CSS, and JavaScript.</p>
 
 ![image](norris.png)
+![image](norris1.png)
 ## Features
 <ul>
 <li>Fetch Random Jokes: Users can get random Chuck Norris jokes by clicking a button.</li>
