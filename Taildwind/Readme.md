@@ -12,7 +12,7 @@ Features
 
 ### 2. TailwindCSSReviewPage
 <b>Project Description</b>
-This project is a simple review page example created using Tailwind CSS. It elegantly presents customer reviews.
+<p>This project is a simple review page example created using Tailwind CSS. It elegantly presents customer reviews.</p>
 
 Features
 <ul><li>Responsive Design</li>
