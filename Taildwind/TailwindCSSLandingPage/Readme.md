@@ -19,13 +19,6 @@
 ## Installation
 <ol> 
   <li>Clone the Repository:</li>
-  ```<language>
- content
-```
-```<language>
-content
-    git clone https://github.com/ebruakcn/Patika.dev.git
-```
 ```<language>
 content
 ```
