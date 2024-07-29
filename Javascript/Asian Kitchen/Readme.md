@@ -1,8 +1,10 @@
 # Asian Kitchen
 ## Project Description
 <p>Asian Kitchen is a simple project created using HTML, CSS, and JavaScript. It provides a basic layout for a restaurant website, showcasing various dishes and their details.</p>
+
 ![image](asian.png)
-![image](asian1.png)
+![image](asian1.png)  
+
 ## Features
 <ul>
 <li>Responsive Design: Optimized for both mobile and desktop views.</li>
