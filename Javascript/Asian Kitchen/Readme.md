@@ -21,7 +21,7 @@
 git clone https://github.com/ebruakcn/Patika.dev.git
 ```
 
-2.Open the Project Files:
+2.Open the Project Files:<br>
 View the page by opening the index.html file in a web browser.
 
 ## Usage
