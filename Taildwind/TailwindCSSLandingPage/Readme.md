@@ -18,12 +18,9 @@
 
 ## Installation
 <ol> 
-  <li>Clone the Repository: ```<language>
-content
-```</li>
-```<language>
-content
-```
+  <li>Clone the Repository:</li>
+  git clone https://github.com/ebruakcn/Patika.dev.git
+
 <li> Install Tailwind CSS:</li>
 For detailed instructions on setting up Tailwind CSS, refer to the Tailwind CSS Documentation. If you prefer not to use Tailwind, you can modify the styles.css file directly.
 
@@ -32,6 +29,4 @@ You can view the page by opening the index.html file in a web browser.</ol>
 
 ## Usage
 After setting up the project, you can customize the landing page's appearance and content as needed. Modify the content in the index.html file and adjust styles in the styles.css file to fit your requirements.
-```<language>
-content
-```
+
