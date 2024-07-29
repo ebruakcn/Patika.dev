@@ -10,35 +10,23 @@
 </ul>
 
 ## Technologies
-HTML: Provides the structure and content.
-Tailwind CSS: Used for styling and layout.
-CSS: Additional style settings in the stylesheet.
-Installation
-Clone the Repository:
+<ul>
+  <li>HTML: Provides the structure and content.</li>
+<li>Tailwind CSS: Used for styling and layout.</li>
+<li>CSS: Additional style settings in the stylesheet.</li>
+</ul>
 
-bash
-Kodu kopyala
+## Installation
+<ol> 
+  <li>Clone the Repository:</li>
 git clone https://github.com/ebruakcn/Patika.dev.git
-Install Tailwind CSS:
+
+<li> Install Tailwind CSS:</li>
 For detailed instructions on setting up Tailwind CSS, refer to the Tailwind CSS Documentation. If you prefer not to use Tailwind, you can modify the styles.css file directly.
 
-Open the Project Files:
-You can view the page by opening the index.html file in a web browser.
+<li>Open the Project Files:</li>
+You can view the page by opening the index.html file in a web browser.</ol>
 
-Usage
+## Usage
 After setting up the project, you can customize the landing page's appearance and content as needed. Modify the content in the index.html file and adjust styles in the styles.css file to fit your requirements.
-
-Contributing
-If you would like to contribute, please follow these steps:
-
-Fork: Fork the repository.
-Branch: Create a new branch (git checkout -b feature/YourFeature).
-Changes: Make your changes and commit them (git commit -am 'Add new feature').
-Push: Push your changes to the branch (git push origin feature/YourFeature).
-Pull Request: Create a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contact
-For questions or assistance regarding the project, feel free to reach out to me on GitHub.
 
