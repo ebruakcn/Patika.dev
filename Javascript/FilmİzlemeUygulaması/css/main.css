@@ -1,0 +1,13 @@
+:root{
+    --color-main: #222831;
+    --color-secondary: #31363F;
+    --color-third: #76ABAE;
+    --color-fourth: #EEEEEE;
+}
+
+i{
+    color: #FFD700;
+    cursor: pointer;
+    right: 5%;
+    top: 3%;
+}
